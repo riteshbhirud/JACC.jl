@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh issue *)",
+      "Bash(git --no-pager diff --stat)",
+      "Bash(git --no-pager diff)",
+      "Bash(julia --version)",
+      "Bash(julia --project=. /private/tmp/claude-501/-Users-ritesh-jacc-JACC-jl/e2e3b82f-f279-463f-80eb-901fe6550f3e/scratchpad/reg_test.jl)",
+      "Bash(julia --project=. -e 'using JACC; println\\(\"loaded ok, backend=\", JACC.backend\\)')",
+      "Bash(julia --project=. -e 'using Pkg; Pkg.instantiate\\(\\)')",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git --no-pager show --stat HEAD)",
+      "Bash(git branch *)",
+      "Bash(git --no-pager diff --stat -- test/unittests.jl)",
+      "Bash(git --no-pager diff --cached --stat -- test/unittests.jl)"
+    ]
+  }
+}
